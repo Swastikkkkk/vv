@@ -3,6 +3,7 @@
 // import { useNavigate, useLocation } from "react-router-dom";
 // import logo from "../assets/logo.png";
 
+/
 
 // const Navbar = () => {
 //   const navigate = useNavigate();
@@ -167,7 +168,7 @@ import React, { useState } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
 import logo from "../assets/logo.png";
 
-const API_KEY = process.env.REACT_APP_GOOGLE_TRANSLATE_API_KEY;
+const API_KEY = process.env.REACT_APP_GOOGLE_TRANSLATE_API_KEY || "AIzaSyB39IqC2w3zr9SIbAsf3AWyEwD9niQ93vU";
 
 const Navbar = () => {
   const navigate = useNavigate();
